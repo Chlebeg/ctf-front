@@ -19,7 +19,7 @@
     <script>
         function sendPassword() {
             const password = document.getElementById("password").value;
-            fetch("/api/unlock", {
+            fetch("https://ctf-4218.onrender.com/api/unlock", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
